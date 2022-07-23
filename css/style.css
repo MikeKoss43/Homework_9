@@ -53,7 +53,7 @@ h1 {
 	Line-height: 150%;
 	margin-bottom: 48px;
 	padding-left: 58px;
-	background-image: url('/images/braces.jpg');
+	background-image: url('../images/braces.jpg');
 	background-repeat: no-repeat;
 	background-position: 0 0;
 }
@@ -75,7 +75,7 @@ li {
 	font-size: 16px;
 	line-height: 26px;
 	padding: 10px 0px 0px 32px;
-	background: url('/images/check.png') 0 15px / auto no-repeat;
+	background: url('../images/check.png') 0 15px / auto no-repeat;
 	
 	
 
@@ -145,7 +145,7 @@ a {
 	font-size: 16px;
 	font-weight: 400;
 	color: rgba(120, 122, 128, 1);
-	background: url(/images/Vector.webp) left center no-repeat;
+	background: url('../images/Vector.webp') left center no-repeat;
 	padding: 0 0 0 24px;
 	margin: 0 24px 0 0;
 }
@@ -157,7 +157,7 @@ a {
 	font-weight: 400;
 	color: rgba(120, 122, 128, 1);
 	margin: 0 395.5px 0 0;
-	background: url(/images/Union.webp) left center no-repeat;
+	background: url('../images/Union.webp') left center no-repeat;
 	padding: 0 0 0 24px;
 }
 
