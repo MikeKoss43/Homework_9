@@ -1,0 +1,361 @@
+@import 'null.css';
+
+@import url('https://fonts.googleapis.com/css?family=Lobster:regular');
+
+@import url('https://fonts.googleapis.com/css?family=Nunito:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic');
+
+body {
+	background-color: rgb(222, 180, 116);
+	background-size: cover;
+}
+
+.wrapper {
+	display: block;
+	background-color: rgb(187, 222, 116);
+	max-width: 1500px;
+	margin: 0 auto;
+}
+
+h1 {
+	color: rgb(107, 72, 8);
+	font-size: 50px;
+	font-family: 'Lobster';
+	text-align: center;
+	margin: 10px 20px 10px 20px;
+}
+
+
+
+
+a {
+	display: inline-block;
+	background-color: aquamarine;
+	padding: 20px 30px 20px 30px;
+	color: blueviolet;
+	margin: 20px 30px;
+	font-family: 'Lobster';
+	font-size: 30px;
+	border-radius: 10px;
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+
+}
+
+main {
+	font-family: 'Nunito';
+}
+
+a:hover {
+	background-color: rgb(123, 123, 160);
+	color: bisque;
+}
+
+a:active {
+	background-color: rgb(123, 123, 160);
+	box-shadow: 0px 0px 14px 17px rgba(0,0,0,0.48) inset;
+}
+
+.enter {
+	width: 150px;
+	height: 150px;
+	background: url(../images/close.webp) 0 0 /150px no-repeat;
+}
+
+.enter:hover {
+	background: url(../images/open.webp) 0 0/150px no-repeat;
+	width: 150px;
+	height: 150px;
+}
+
+
+.way-1 {
+	width: 150px;
+	height: 40px;
+	background-color: yellow;
+   font-size: 20px;
+	text-align: center;
+	padding-top: 10px;
+	visibility: hidden;
+}
+
+
+.enter:hover + .way-1 {
+	visibility: visible;
+}
+
+.way-1:hover {
+	visibility: visible;
+}
+
+
+.way-2 {
+	writing-mode: vertical-lr; 
+	text-orientation: upright; 
+	padding: 10px;
+	text-align: center;
+	width: 30px;
+	height: 315px;
+	margin-left: 120px;
+	margin-bottom: -15px;
+	background-color: yellow;
+	visibility: hidden;
+}
+
+.way-1:hover + .way-2 {
+	visibility: visible;
+}
+
+.way-2:hover {
+	visibility: visible;
+}
+
+
+
+
+.way-3 {
+	padding-top: 15px;
+	text-align: center;
+	width: 410px;
+	height: 40px;
+	margin-left: 150px;
+	background-color: yellow;
+	visibility: hidden;
+}
+
+.way-2:hover + .way-3 {
+	visibility: visible;
+} 
+
+.way-3:hover {
+	visibility: visible;
+}
+
+
+
+.way-4 {
+	width: 30px;
+	height: 300px;
+	background-color: yellow;
+	margin-left: 530px;
+	margin-top: -300px;
+	writing-mode: vertical-lr; 
+	text-orientation: upright;
+	visibility: hidden;
+}
+
+.way-3:hover + .way-4 {
+	visibility: visible;
+}
+
+.way-4:hover {
+	visibility: visible;
+}
+
+
+
+.way-5 {
+	text-align: center;
+	color: aliceblue;
+	width: 250px;
+	height: 20px;
+	background-color: black;
+	margin-left: 550px;
+	margin-top: -300px;
+	visibility: hidden;
+}
+
+.way-4:hover + .way-5 {
+	visibility: visible;
+}
+
+.way-5:hover {
+	visibility: visible;
+}
+
+
+.way-6 {
+	writing-mode: vertical-lr; 
+	text-orientation: upright; 
+	padding-top: 20px;
+   height: 500px;
+	width: 30px;
+	background-color: yellow;
+	margin-left: 770px;
+	margin-top: -5px;
+   visibility: hidden;
+}
+
+.way-5:hover + .way-6 {
+	visibility: visible;
+}
+
+.way-6:hover {
+	visibility: visible;
+}
+
+
+.way-7 {
+	background-color: yellow;
+	height: 20px;
+	width: 400px;
+	margin-left: 400px;
+	visibility: hidden;
+}
+
+.way-6:hover + .way-7 {
+	visibility: visible;
+}
+
+.way-7:hover {
+	visibility: visible;
+}
+
+
+.way-8 {
+	width: 40px;
+	height: 100px;
+	background-color: yellow;
+	margin-left: 400px;
+	writing-mode: vertical-lr; 
+	text-orientation: upright;
+	visibility: hidden;
+}
+
+.way-7:hover + .way-8 {
+	visibility: visible;
+}
+
+.way-8:hover {
+	visibility: visible;
+}
+
+
+.way-9 {
+	text-align: center;
+	width: 450px;
+   height: 40px;
+	background-color: pink;
+	margin-left: 400px;
+	visibility: hidden;
+}
+
+.way-8:hover + .way-9 {
+	visibility: visible;
+}
+
+.way-9:hover {
+	visibility: visible;
+}
+
+
+.way-10 {
+	height: 500px;
+	width: 40px;
+	background-color: bisque;
+	writing-mode: vertical-lr; 
+	text-orientation: upright; 
+	margin-left: 810px;
+	margin-top: -500px;
+	visibility: hidden;
+}
+
+.way-9:hover + .way-10 {
+	visibility: visible;
+}
+
+.way-10:hover {
+	visibility: visible;
+}
+
+
+.way-11 {
+	height: 40px;
+	width: 150px;
+	background-color: chartreuse;
+	margin-left: 848px;
+	margin-top: -500px;
+	padding-left: 10px;
+	visibility: hidden;
+}
+
+.way-10:hover + .way-11 {
+	visibility: visible;
+}
+
+.way-11:hover {
+	visibility: visible;
+}
+
+
+.way-12 {
+	height: 600px;
+	width: 50px;
+	background-color: yellow;
+	writing-mode: vertical-lr; 
+	text-orientation: upright; 
+	font-size: 20px;
+	margin-left: 955px;
+	visibility: hidden;
+}
+
+.way-11:hover + .way-12 {
+	visibility: visible;
+}
+
+.way-12:hover {
+	visibility: visible;
+}
+
+
+.way-13 {
+	background: url(../images/motivator.webp) 0 0/auto no-repeat;
+	width: 1498px;
+	height: 887px;
+	font-size: 50px;
+	visibility: hidden;
+}
+
+.way-12:hover + .way-13 {
+	visibility: visible;
+}
+
+.way-13:hover {
+	visibility: visible;
+}
+
+
+
+
+
+/*
+.class { 
+	writing-mode: vertical-lr; 
+	text-orientation: upright; 
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
