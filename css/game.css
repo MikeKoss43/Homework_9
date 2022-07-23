@@ -58,11 +58,11 @@ a:active {
 .enter {
 	width: 150px;
 	height: 150px;
-	background: url('images/close.webp') 0 0 /150px no-repeat;
+	background: url('/images/close.webp') 0 0 /150px no-repeat;
 }
 
 .enter:hover {
-	background: url('images/open.webp') 0 0/150px no-repeat;
+	background: url('/images/open.webp') 0 0/150px no-repeat;
 	width: 150px;
 	height: 150px;
 }
