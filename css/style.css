@@ -98,7 +98,8 @@ li {
 }
 
 .button {
-
+        font-size: 20px;
+	color: blue;
 	max-width: 400px;
 	margin: 0px 0px 50px 400px;
 	padding: 50px;
